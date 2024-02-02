@@ -49,7 +49,7 @@ function dividir(numeroA, numeroB) {
 // Função para 
 function calcularCubo(numeroA,numeroB){
   let soma = numeroA + numeroB;
-  return soma * soma;
+  return soma * soma * soma;
  
 }
 function calcularQuadrado(numeroA,numeroB) {
