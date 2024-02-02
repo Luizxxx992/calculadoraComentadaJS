@@ -1,3 +1,27 @@
+// Função para verificar qual dos dois valores é o maior e realizar a multiplicação
+function multiplicarMetadeDoMaiorPeloMenor(numeroA, numeroB) {
+  // Verifica qual é o maior entre os dois valores
+  const maior = Math.max(numeroA, numeroB);
+  const menor = Math.min(numeroA, numeroB);
+
+  // Realiza a multiplicação da metade do valor maior pelo valor do menor
+ return (maior / 2) * menor;
+
+  // Retorna o resultado
+
+ 
+
+  
+  
+}
+
+// Exemplo de uso da função
+
+
+
+// Exibe o resultado no console
+
+
 
 
 
@@ -53,6 +77,7 @@ function calcular() {
   document.getElementById("cubo").innerHTML = "Cubo: " + calcularCubo(numeroA, numeroB);
   document.getElementById("quadrado").innerHTML = "Quadrado: " + calcularQuadrado(numeroA, numeroB);
   document.getElementById("media").innerHTML = "Media: " + calcularMedia(numeroA, numeroB);
+  document.getElementById("somamaiormenor").innerHTML = "A soma do maior e menor deu: " + multiplicarMetadeDoMaiorPeloMenor(numeroA, numeroB);
 }
 
 
