@@ -1,21 +1,42 @@
+
+
+
+
+
 // Função para somar dois números
 function somar(numeroA, numeroB) {
   return numeroA + numeroB;
 }
 
 // Função para subtrair dois números
-function subtrair(a, b) {
-  return a - b;
+function subtrair(numeroA, numeroB) {
+  return numeroA - numeroB;
 }
 
 // Função para multiplicar dois números
-function multiplicar(a, b) {
-  return a * b;
+function multiplicar(numeroA,numeroB) {
+  return numeroA * numeroB;
 }
 
 // Função para dividir dois números
-function dividir(a, b) {
-  return a / b;
+function dividir(numeroA, numeroB) {
+  return numeroA / numeroB;
+}
+// Função para 
+function calcularCubo(numeroA,numeroB){
+  let soma = numeroA + numeroB;
+  return soma * soma;
+ 
+}
+function calcularQuadrado(numeroA,numeroB) {
+  let soma = numeroA + numeroB;
+  return soma * soma;
+
+}
+function calcularMedia(numeroA,numeroB){
+  let soma = numeroA + numeroB;
+  return  soma /2;
+
 }
 
 // Função principal para realizar os cálculos e exibir os resultados na página
@@ -29,4 +50,10 @@ function calcular() {
   document.getElementById("subtracao").innerHTML = "Subtração: " + subtrair(numeroA, numeroB);
   document.getElementById("multiplicacao").innerHTML = "Multiplicação: " + multiplicar(numeroA, numeroB);
   document.getElementById("divisao").innerHTML = "Divisão: " + dividir(numeroA, numeroB);
+  document.getElementById("cubo").innerHTML = "Cubo: " + calcularCubo(numeroA, numeroB);
+  document.getElementById("quadrado").innerHTML = "Quadrado: " + calcularQuadrado(numeroA, numeroB);
+  document.getElementById("media").innerHTML = "Media: " + calcularMedia(numeroA, numeroB);
 }
+
+
+
